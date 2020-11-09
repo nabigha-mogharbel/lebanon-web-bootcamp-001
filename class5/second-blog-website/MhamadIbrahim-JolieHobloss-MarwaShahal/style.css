@@ -1,0 +1,239 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f1f1f1;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 120px;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.heading {
+  text-transform: uppercase;
+  font-size: 46px;
+  margin-bottom: 20px;
+}
+
+.subheading {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.unknown {
+  color: white;
+  background-color: black;
+  font-weight: 300;
+  padding: 2px 8px;
+}
+
+.left-card {
+  width: 850px;
+  -webkit-box-shadow: 4px 4px 14px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 4px 4px 14px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 4px 4px 14px 0px rgba(50, 50, 50, 0.75);
+  margin-bottom: 40px;
+}
+
+.card-content {
+  background-color: white;
+  padding: 20px;
+}
+
+.left-card-image {
+  width: inherit;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-heading {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.card-subheading {
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+.card-date {
+  font-weight: 100;
+}
+
+.card-paragraph {
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-button {
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.card-comment {
+  font-weight: 600;
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+.card-comment-count-o {
+  color: white;
+  background-color: black;
+  padding: 4px 8px;
+}
+
+.card-comment-count-2 {
+  color: white;
+  border-radius: 100%;
+  background-color: black;
+  padding: 4px 8px;
+}
+
+.right-card {
+  width: 500px;
+  -webkit-box-shadow: 4px 4px 14px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 4px 4px 14px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 4px 4px 14px 0px rgba(50, 50, 50, 0.75);
+  margin-bottom: 40px;
+}
+
+.right-card-image {
+  width: inherit;
+}
+
+.right-card-heading {
+  margin-bottom: 20px;
+}
+
+.popular-posts {
+  width: 500px;
+  -webkit-box-shadow: 4px 4px 14px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 4px 4px 14px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 4px 4px 14px 0px rgba(50, 50, 50, 0.75);
+  margin-bottom: 40px;
+}
+
+.popular-posts-heading {
+  background-color: #f1f1f1;
+  font-weight: 400;
+  padding: 20px 16px;
+}
+
+.popular-posts-content {
+  background-color: white;
+}
+
+.popular-post {
+  display: flex;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.popular-posts-avatar {
+  width: 80px;
+  margin-right: 20px;
+}
+
+.lorem {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.tags {
+  width: 500px;
+  -webkit-box-shadow: 4px 4px 14px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 4px 4px 14px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 4px 4px 14px 0px rgba(50, 50, 50, 0.75);
+}
+
+.tags-heading {
+  background-color: #f1f1f1;
+  font-weight: 400;
+  padding: 20px 16px;
+}
+
+.tags-content {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 20px 20px;
+}
+
+.black-tag,
+.tag {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 2px 8px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.black-tag {
+  color: white;
+  background-color: black;
+}
+
+.tag {
+  background-color: #f1f1f1;
+}
+
+footer {
+  background-color: #616161;
+  padding: 20px 10px;
+}
+
+.buttons-group {
+  margin: 30px 10px;
+}
+
+.button-1,
+.button-2 {
+  padding: 20px 30px;
+  font-size: 20px;
+  border-style: none;
+}
+
+.button-1 {
+  color: #616161;
+  background-color: #444444;
+}
+
+.button-2 {
+  color: white;
+  background-color: black;
+}
+
+.powered-by {
+  color: white;
+  margin: 0 10px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+a {
+  color: white;
+}
