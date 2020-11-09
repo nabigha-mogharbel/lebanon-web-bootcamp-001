@@ -2,7 +2,7 @@ body {display:flex;}
 #side { text-align: center;
         width:280px;
         height:100%;
-        padding: 70px 0px;
+        padding: 20px;
         float:left;
         background-color:rgb(36, 77, 119);
      }
