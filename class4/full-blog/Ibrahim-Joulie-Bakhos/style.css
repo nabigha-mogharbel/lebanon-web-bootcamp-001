@@ -11,6 +11,7 @@ aside {
   padding: 20px;
   padding-top: 40%;
   text-align: right;
+  max-width: 100%;
 }
 main { 
   justify-content: center;
