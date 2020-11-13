@@ -1,0 +1,126 @@
+html{
+    font-family:'Nunito', sans-serif;
+}
+body{
+    padding: 0;
+      margin: 0;
+      background-color:#dfd9d9;
+  }
+  .blacktag{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width:10px;
+  }
+  .graytag{ 
+    background-color: rgb(231, 231, 231);
+    padding: 5px;
+    word-spacing: 10px;
+    margin: 10px;
+    
+    }
+  
+    .round{
+      border-radius: 50%;
+    }
+  header{
+    text-align: center;
+  }
+  .card{
+      width: 100%;
+      background-color: rgb(241, 236, 236);
+      margin: 20px;
+      -webkit-box-shadow: 0 0 10px rgb(231, 225, 225);
+        box-shadow: 0 0 10px rgb(163, 162, 162);
+      
+
+      }
+  .card h2, .card p, .card h3{
+  margin: 25px;
+  }
+ .second{
+     height: 200px;
+ }
+  /*.first{
+      height: 350px;
+  }*/
+  .card-footer{
+    display: flex;
+    justify-content: space-between;
+  }
+  main{
+      display:flex;
+     justify-content: center;
+  }
+  
+  .col-1{
+   width: 63%;
+   margin: 20px;
+  }
+  .col-2{
+    width: 33%;
+    margin: 40px;
+  }
+  img{
+    width: 100%;
+  }
+  .Date{
+    color: gray
+  }
+  
+  button{
+    border: 1px solid rgb(187, 183, 183);
+    margin: 15px;
+    padding: 8px;
+  }
+  
+  .cardslist{
+    border-bottom: 1px solid rgb(179, 174, 174);
+    padding: 5px;
+    display: flex;
+  }
+  
+  .cardslist img{
+  width: 100px;
+  margin: 10px;
+  height: 90px;
+  }
+  .title{
+    margin-left: 10px;
+  }
+  .card-title{
+    padding: 20px;
+    background-color: rgba(233, 227, 227, 0.911);
+
+  }
+  .previous{
+    background-color: #424242;
+      border: 1px solid #707070;
+      color: #707070;
+      margin-left: 30px;
+  }
+  .next{
+    background-color:black;
+      color: rgba(255, 255, 255, 0.767);
+      border-color: black;
+      margin: 0px;
+  }
+  
+  footer{
+    background-color: rgba(112, 110, 110, 0.925);
+    margin-bottom: 0px;
+    padding: 0px;
+    height: 25vh;
+    color: white;
+  }
+    footer button{
+        margin-top: 30px;
+    }
+  footer p {
+      margin-left: 30px
+  }
+
+  footer a{
+      text-decoration: underline;
+      color: white;
+  }
