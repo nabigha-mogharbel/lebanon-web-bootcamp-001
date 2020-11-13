@@ -1,0 +1,133 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Raleway;
+    background-color:#f1f1f1;
+    box-sizing: border-box;
+}
+header{
+    padding:20px;
+    text-align: center;
+}
+footer{
+    padding: 50px;
+    background-color:#707070 ;
+}
+main{
+   display:flex;
+   justify-content: center;
+}
+h3,h2{
+    margin: 0;
+    padding: 0;
+}
+.col1 {
+    width: 63%;
+  }
+
+.col2{
+    width: 33%;
+}
+.col{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+.black-tag{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.round{
+    border-radius: 50%;
+}
+.card{
+    width: 100%;
+    background-color: white;
+    margin: 30px 20px 30px 0;
+	box-shadow:
+		  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+		  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+		  0 12.5px 10px rgba(0, 0, 0, 0.06)
+;
+}
+.card-body{
+    padding: 20px;
+}
+.card-body-list{
+    padding: 10px;
+    display: flex;
+    justify-self: start;
+}
+.card-body h2{
+    margin: 0 0 5px 0;
+}
+.card-body h3{
+    font-weight: lighter;
+}
+.card button{
+padding: 15px;
+background-color: white;
+border: 1px solid #707070;
+font-weight: bolder;
+}
+.card button:hover{
+background-color: #707070;
+cursor: pointer;
+} 
+.card-img{
+    width: 100%;
+}
+.card-title{
+   background-color:#acacac ;
+   padding: 20px;
+   font-weight: 400;
+}
+
+.date{
+    color: #707070;
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.line{
+    border-bottom:  1px solid #c7c7c7;
+}
+.post-img{
+    width: 60px;
+    margin: 0 20px;
+}
+.post-desc{
+    padding: 0;
+    margin: 0;
+display: block;
+}
+.btn-disabled{
+    padding: 15px;
+    background-color: #424242;
+    border: 1px solid #707070;
+    font-weight: bolder;
+    color: #707070;
+}
+.btn-disabled:hover{
+    cursor:not-allowed;
+}
+.btn-style{
+    padding: 15px;
+    background-color: black;
+    border: 1px solid black;
+    font-weight: bolder;
+    color: white;
+}
+.btn-style:hover{
+    cursor: pointer;
+}
+.gray-tag{
+    display: inline-block;
+    background-color: #d3d3d3;
+    color: white;
+    margin: 5px;
+}
