@@ -1,0 +1,45 @@
+/*
+#sec-1{background: rgb(208, 153, 230);}
+#sec-2{background:rgb(96, 144, 233);}
+#sec-3{background:pink;}*/
+
+
+.toot{color:rgb(145, 170, 185);}
+
+
+header{background: rgb(61, 79, 92);
+position: fixed;
+height: 100%;
+width: 20%;
+top: 0;
+left: 0;
+display: block;
+flex-direction: column;
+}
+hr{margin-top:0px; position:relative; top:-10px;}
+button{background: rgb(61, 79, 92);
+border-color: rgb(145, 170, 185);
+border-width: 3px;
+border-style: solid;
+}
+nav{float:right; margin-top: 60%;}
+h3, .btn-txt{color: white;}
+figcaption{position:relative; margin-left:-4%;}
+main, footer{ margin-left: 25%;
+width: 75%;}
+.avatar{border-radius: 50%; width: 5%;
+float: right;
+margin-top: -45px;}
+#txt0{background: rgb(133, 199, 133);
+color: white;}
+#txt1{background:blue;
+color:white;}
+#txt3{background: gray; color: white;}
+#txt2{background:red;
+color:white;}
+.pics{width: 30%;
+margin: auto;}
+footer{margin-top:5px; display: flex; justify-content: center;}
+footer p{margin-left: 10px;}
+.figures{display: flex; justify-content: space-between;}
+footer p , .graytext{color: rgb(197, 211, 227);}
