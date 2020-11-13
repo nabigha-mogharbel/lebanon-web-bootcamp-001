@@ -1,0 +1,50 @@
+@media only screen and (max-width: 500px) {
+    body{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 110%;  
+    }
+
+    .column{
+        display:flex;
+        justify-items: center;
+        align-items: column;   
+        flex-wrap: wrap;
+    }
+    .column1{
+        justify-items: center;
+        align-items: center;  
+        width:100vw;
+        height: 100vh;
+    }
+    .column2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .myBlog{
+        justify-items: center;
+        align-items: center;
+        padding-left:30%;
+        padding-right:30%;
+    }
+    .ideas{
+        justify-items: center;
+        align-items: center;
+        padding-left:30%;
+        padding-right:30%;
+    }
+    .border{
+        justify-items: center;
+        align-items: center;
+        margin-left:50%;
+        margin-right:50%;
+    }
+    
+    .images{
+        display:flex;
+        flex-wrap: wrap;
+    }
+  
+}
