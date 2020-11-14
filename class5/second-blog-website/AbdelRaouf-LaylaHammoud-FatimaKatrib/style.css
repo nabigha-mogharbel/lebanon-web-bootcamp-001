@@ -22,10 +22,14 @@ color:white;
     width: 150px;
     
 }
+.boximgl{
+    width: 100%;
+    height: 300px;
+}
 .img1l,
 .img2l{
     width: 100%;
-    height: 50%;
+    height: 100%;
     object-fit: cover;
 }
 .rc{
