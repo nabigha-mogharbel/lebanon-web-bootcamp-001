@@ -96,9 +96,3 @@ for(let i =0; i<res3.length;i++){
     }
   }
 document.querySelector("p").innerHTML=p;
-
-
-
-// &#129300;
-
-// &#128558;
