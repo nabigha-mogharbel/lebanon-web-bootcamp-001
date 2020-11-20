@@ -1,0 +1,124 @@
+header{
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	text-align: center;
+	padding-bottom: 30px;
+	background-color: lightgrey;
+}
+
+.cards{
+	margin:15px;
+	box-shadow: 15px 15px 5px lightgrey;
+}
+
+.words{
+	padding: 15px;
+}
+
+.cards-bottom{
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+button{
+	padding: 10px;
+	background-color: white;
+	border: 1px solid lightgrey;
+}
+
+.black{
+	background-color: black;
+	color: white;
+	padding: 4px;
+}
+
+#Nb2{
+	border-radius: 70%;
+}
+
+.h33{
+	background: lightgrey;
+	padding-left: 15px;
+	display: flex;
+	align-content: center;
+	height: 10vh;
+}
+
+.posts{
+	display: flex;
+	border-bottom: 1px solid lightgrey;
+	padding: 10px;
+}
+
+.s{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.c{
+	background-color: lightgrey;
+	padding: 4px;
+	margin: 4px;
+}
+.d{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.im{
+	width: 100%;
+	height: 50vh;
+	max-height: 50vh;
+}
+
+.im2{
+	width:50px;
+	height:50px;
+}
+
+main{
+	display: flex;
+	columns: 2;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.blackk{
+	background-color: black;
+	color: white;
+	padding: 4px;
+	margin: 4px;
+}
+
+footer{
+	background-color: darkgrey;
+	padding: 20px;
+}
+
+.b1{
+	background-color: grey;
+	color: white;
+	margin-top: 5px;
+}
+.b2{
+	background-color: black;
+	color: white;
+	margin-top: 5px;
+}
+#bye{
+	margin-top: 20px;
+	color: white;
+}
+
+.date{
+	font-family: "Courier New";
+}
