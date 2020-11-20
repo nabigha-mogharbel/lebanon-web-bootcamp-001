@@ -1,0 +1,69 @@
+/*Challenge 1
+
+let nameArr = ['Adam', 'Sarah', 'Malcom']
+let tempArr = [];
+nameArr.sort();
+
+tempArr = nameArr.map((names) => names[0]).join('')
+
+console.log(tempArr);                                                                                           */      
+/////////////////////////////////////
+/*Challenge 2
+
+let str = 'Happy Birthday';
+let out='';
+//let new='';
+let character='';
+function reverseCase(str)
+{
+for (let i = 0; i < str.length; i++) {
+     character = str[i];
+    if (character == character.toLowerCase()) 
+    {
+      // The character is lowercase
+      out = out + character.toUpperCase();
+      
+    } 
+    else 
+    {
+      // The character is uppercase
+      out = out + character.toLowerCase();
+    }
+      
+    
+  }
+return out;
+  }
+
+out=reverseCase(str);
+console.log(out);
+
+*///////////////////////////////// Challenge 3
+
+let chatroomStatus = ['Liz' ,'Ammar','Hakan','jaime','Derya'];
+let y='';
+function chatRoom(chatroomStatus){
+let x =chatroomStatus.length-2;
+
+if(chatroomStatus.length == 0){
+  console.log("no one online");
+}
+
+else if(chatroomStatus.length == 1 )
+{
+ y=chatroomStatus[0]+' is online'
+ return y;
+  }
+  
+  else if (chatroomStatus.length ==2)
+  {
+  y=chatroomStatus[0]+' and '+chatroomStatus[1]+ ' are online.';
+  return y;
+}
+else if (chatroomStatus.length>2){
+ y=chatroomStatus[0]+', '+chatroomStatus[1]+' and ' +x+ ' more are online.'
+ return y;
+}
+}
+chatRoom(chatroomStatus);
+console.log(y);
