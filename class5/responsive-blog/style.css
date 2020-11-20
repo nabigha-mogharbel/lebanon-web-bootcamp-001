@@ -1,0 +1,98 @@
+
+body {display:flex;}
+#side { align-content: center;
+        width:280px;
+        height:100%;
+        padding: 20px;
+        float:left;
+        background-color:rgb(36, 77, 119);
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+     }
+
+#verbal { text-align: right;
+          color:white;
+          font-size: 20px;
+          font-family: 'Courier New', Courier, monospace;}
+
+h3 { text-align: right;
+     color:white;
+     font-size: 30px;
+     font-style:bold;
+     font-family: 'Times New Roman', Times, serif;
+    }
+.button {float:right;
+         color:white;
+         padding:7px; 15px;
+         border: 1px solid white;
+         margin-left:10px;}
+
+.avatar { width:50px;
+          height:50px;
+          float:right;} 
+
+main {margin:20px;}
+.cssLogo { padding: 3px 5px;
+           border:1px solid green;
+           background-color:green ;
+           color:white;} 
+.jsLogo { padding:3px 5px;
+            border:1px solid blue;
+            background-color:blue;
+            color:white;}
+
+#jsLogo2 { padding:3px 5px;
+           border:1px solid rgb(218, 8, 8);
+           background-color:rgb(218, 8, 8);
+           color:white;}
+#notVisited { padding:3px 7px;
+            border:1px solid grey;
+            background-color:grey ;
+            color:white;}
+.pinned {
+         border-bottom:0.5px solid rgb(155, 140, 140);
+         font-family: 'Times New Roman', Times, serif;
+         color:rgb(170, 164, 164)}
+ #p1 { width:500px;
+       height:400px;
+       margin:20px;}
+ #p2 {width:500px;
+      height:400px;
+      margin:20px;}
+      .p3 {display: flex;
+           justify-content: center;}
+
+#link {display:flex;
+       justify-content: center;
+       align-items:center;}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      display: block;
+      margin:0px;
+    }
+  
+    #side {
+      width: 100%;
+      height: 100vh;
+      align-items: center;
+      text-align: center;
+      padding-right:0px;
+      margin-left:0px;
+    }
+  
+    #p1,
+    #p2 {
+      width: 100%;
+      height:100%;
+      margin:10px 0px 10px 0px;
+
+    }
+      main{margin-left:8px;
+           margin-right:8px;}
+    
+    .p3 {display:flex;
+      flex-direction: column;}
+  }
